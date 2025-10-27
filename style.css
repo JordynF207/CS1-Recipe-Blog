@@ -1,23 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quintessential&display=swap');
+
+
 body {
 Background:rgb(233, 178, 208);
 Color: Black; 
-font-family:cursive
+font-family:"Quintessential";
+padding: 10px
 }
 h1 {
     text-align: center;
     text-decoration: underline;
+    font-family:"luckiest guy";
+    Color: white;
+    background: rgb(128, 18, 82); 
+    border: solid;
+    Padding: 4px;
+    
+
 }
 h2 {
+    font-family: "luckiest guy";
     text-decoration: underline;
+    color: white;
+    font-size: 30px;
+    
 }
 h3 {
+    font-family: "luckiest guy";
     text-decoration:underline;
+    Color: white;
+    font-size: 25px
+    
 }
  ul{
      border: solid;
-     border-width:5px
+     border-width:5px;
+     width:40%;
+     border-radius: 20px;
+     background: rgb(197, 98, 151);
 }
 ol {
     border:solid;
     border-width:5px;
+    width: 70%;
+    border-radius: 20px;
+    background: rgb(197, 98, 151)
 }
+
+a {
+    background: linear-gradient(112.5deg, rgb(95, 10, 135) 11.4%, rgb(164, 80, 139) 60.2%);
+    Color: white;
+    Border: solid;
+    padding: 4px;
+    
+}
+.centered{
+    text-align: center;
+    
+}
+img {
+    border:solid 5px black;
+    box-shadow: 2px 2px 5px;
+    border-radius: 20px
+}
+hr {
+    border-bottom:7px dotted black;
+    
+}
+   
